@@ -1,0 +1,121 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgba(234, 243, 242, 0.712);
+  font-family: 'Poppins', sans-serif;
+  color: #686868;
+  font-size: 15px;
+  line-height: 30px;
+  display: block;
+}
+
+h1, h2, h3 {
+  color: #244a7ce5;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2{
+  margin-bottom: -10px;
+  color: rgb(218, 65, 218);
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(62, 229, 235)
+}
+
+.card {
+  background: white;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 300px;
+  padding-top: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.15);
+  border-radius: 5px;
+}
+
+.card2 {
+  background: white;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0px;
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.15);
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+
+}
+
+ul > li {
+  margin:10px;
+  background-color: rgba(203, 228, 252, 0.795);
+  width: 50px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+ul > li:hover {
+  background-color: rgb(102, 28, 238);
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.blue-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(110, 43, 235);
+  padding: 10px 20px ;
+  border-radius: 4px;
+}
+
+div {
+  display: block;
+}
